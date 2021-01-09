@@ -21,7 +21,7 @@
         </div>
         <!-- 登录 -->
         <div class="login_box">
-            <form class="layui-form" action="">
+            <form class="layui-form" action="" id="login">
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-username"></i>
                     <input type="text" name="username" required lay-verify="required" placeholder="请输入账号"
@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="reg_box">
-            <form class="layui-form" action="">
+            <form class="layui-form" action="" id="reg">
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-username"></i>
                     <input type="text" name="username" required lay-verify="required" placeholder="请输入账号"
@@ -51,11 +51,11 @@
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>
                     <input type="password" name="password" required lay-verify="required|pwd" placeholder="请输入密码"
-                        autocomplete="off" class="layui-input">
+                        autocomplete="off" class="layui-input" id="password">
                 </div>
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>
-                    <input type="password" name="password_end" required lay-verify="required" placeholder="请再次输入密码"
+                    <input type="password" name="password_end" required lay-verify="required|re_pwd" placeholder="请再次输入密码"
                         autocomplete="off" class="layui-input">
                 </div>
                 <div class="layui-form-item">
