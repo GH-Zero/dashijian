@@ -12,7 +12,7 @@ html,body{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 400px;
-    height: 370px;
+    height: 320px;
     background-color: #ffffff;
 }
 .context_title{
@@ -27,6 +27,18 @@ html,body{
     justify-content: flex-end;
 }
 .layui-form-item{
+    position: relative;
     margin-left: 10px;
     margin-right: 10px;
+}
+.layui-form-item a{
+font-size: 12px;
+}
+.layui-form-item input{
+    padding-left: 30px;
+}
+.layui-icon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
