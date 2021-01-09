@@ -19,3 +19,14 @@ html,body{
     height: 60px;
     background: url("../images/login_title.png") no-repeat center;
 }
+.reg_box{
+    display:none;
+}
+.box_a {
+    display: flex;
+    justify-content: flex-end;
+}
+.layui-form-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
