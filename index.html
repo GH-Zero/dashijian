@@ -42,7 +42,7 @@
                     <span class="hello">欢迎###</span>
                 </div>
                 <ul class="layui-nav layui-nav-tree " lay-shrink="all" lay-filter="test">
-                    <li class="layui-nav-item"><a href=""><i class="layui-icon layui-icon-home"></i>首页</a></li>
+                    <li class="layui-nav-item"><a href="./home/dashboard.html" target="fm"><i class="layui-icon layui-icon-home"></i>首页</a></li>
                     <li class="layui-nav-item">
                         <a class="" href="javascript:;"><i class="layui-icon layui-icon-file-b"></i>文章管理</a>
                         <dl class="layui-nav-child">
@@ -55,9 +55,9 @@
                     <li class="layui-nav-item">
                         <a href="javascript:;"><i class="layui-icon layui-icon-friends"></i>个人中心</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i>基本资料</a></dd>
+                            <dd><a href="./user/user_inof.html" target="fm"><i class="layui-icon layui-icon-app"></i>基本资料</a></dd>
                             <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i>更换头像</a></dd>
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i>重置密码</a></dd>
+                            <dd><a href="./user/user_pwd.html" target="fm"><i class="layui-icon layui-icon-app"></i>重置密码</a></dd>
 
                         </dl>
                     </li>
@@ -68,7 +68,7 @@
 
         <div class="layui-body">
             <!-- 内容主体区域 -->
-            <div style="padding: 15px;">内容主体区域</div>
+                <iframe src="./home/dashboard.html" frameborder="0" name="fm"></iframe>
         </div>
 
         <div class="layui-footer">
@@ -76,8 +76,8 @@
             © cuilingling.com - 崔玲玲
         </div>
     </div>
-    <script src="./assets/lib/jquery.js"></script>
     <script src="./assets/lib/layui/layui.all.js"></script>
+    <script src="./assets/lib/jquery.js"></script>
     <script src="./assets/js/baseAPI.js"></script>
     <script src="./assets/js/index.js"></script>
     <script>

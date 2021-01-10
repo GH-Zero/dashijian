@@ -34,3 +34,10 @@ body,html{
     width: 35px;
     height: 35px;
 }
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.layui-body{
+ overflow: hidden;   
+}
