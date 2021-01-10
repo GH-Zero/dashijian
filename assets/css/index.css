@@ -1,0 +1,36 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+.layui-icon{
+    margin-right: 10px;
+}
+.layui-nav-tree .layui-nav-item dd{
+    padding-left: 20px;
+}
+.context{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 60px;
+   border-bottom: 1px solid #cccccc;
+}
+.geren{
+    position: relative;
+    right: 25px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: cornflowerblue;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+}
+.layui-nav-img{
+    position: relative;
+    left: 25px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
