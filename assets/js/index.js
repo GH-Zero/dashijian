@@ -1,4 +1,4 @@
-$(function () {
+
     var layer = layui.layer;
     show()
     function show() {
@@ -16,7 +16,7 @@ $(function () {
                 $('.hello').html(res.data.nickname || res.data.username)
                 if (res.data.user_pic !== null) {
                     $('.geren').hide()
-                    $('.layui-nav-img').attr('str', res.data.user_pic).show();
+                    $('.layui-nav-img').attr('src', res.data.user_pic).show();
                 } else {
                     var text = res.data.username
                     $('.geren').html(text[0].toUpperCase()).show();
@@ -38,4 +38,3 @@ $(function () {
 
 
 
-})

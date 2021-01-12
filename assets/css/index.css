@@ -9,7 +9,6 @@ body,html{
     padding-left: 20px;
 }
 .context{
-   
    display: flex;
    justify-content: center;
    align-items: center;
@@ -17,8 +16,6 @@ body,html{
    border-bottom: 1px solid #cccccc;
 }
 .geren{
-    position: relative;
-    right: 25px;
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -26,13 +23,6 @@ body,html{
     text-align: center;
     line-height: 35px;
     border-radius: 50%;
-}
-.layui-nav-img{
-    position: relative;
-    left: 25px;
-    display: inline-block;
-    width: 35px;
-    height: 35px;
 }
 iframe{
     width: 100%;

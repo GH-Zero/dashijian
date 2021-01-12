@@ -29,7 +29,7 @@ $(function () {
                     layer.msg(res.message)
                 }
                 layer.msg(res.message);
-                // window.parent.show();
+                window.parent.show();
             }
         })
     });
